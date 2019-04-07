@@ -1,0 +1,9 @@
+coins:
+  horde:
+    high:
+      gp:
+        dices: 4
+        multiplier: 1000
+      pp:
+        dices: 5
+        multiplier: 100

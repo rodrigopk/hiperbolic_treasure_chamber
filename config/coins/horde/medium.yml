@@ -1,0 +1,15 @@
+coins:
+  horde:
+    medium:
+      cp:
+        dices: 2
+        multiplier: 100
+      sp:
+        dices: 2
+        multiplier: 1000
+      gp:
+        dices: 6
+        multiplier: 100
+      pp:
+        dices: 3
+        multiplier: 10
