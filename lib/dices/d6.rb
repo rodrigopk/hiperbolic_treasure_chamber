@@ -4,11 +4,9 @@ require 'wild_dice'
 
 module Dices
   class D6
-    def initialize(multiplier: 1, dependencies: {})
-      @multiplier = multiplier
-
+    def initialize(number_of_dices: 1, dependencies: {})
       @dice = dependencies.fetch(:dice) do
-        ::Wild::D6.new(multiplier: multiplier)
+        ::Wild::D6.new(multiplier: number_of_dices)
       end
     end
 

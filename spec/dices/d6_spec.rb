@@ -10,7 +10,7 @@ RSpec.describe Dices::D6 do
     end
 
     it 'can be initialized with a multiplier' do
-      described_class.new(multiplier: 3)
+      described_class.new(number_of_dices: 3)
     end
   end
 

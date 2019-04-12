@@ -4,6 +4,7 @@ module Treasure
   class Coin
     class Types
       CP = 'cp'
+      EP = 'ep'
       SP = 'sp'
       GP = 'gp'
       PP = 'pp'
