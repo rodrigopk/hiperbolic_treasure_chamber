@@ -10,6 +10,18 @@ module Treasure
   class Loot
     attr_reader :coins
 
+    class Tiers
+      LOW = 'low'
+      MEDIUM = 'medium'
+      HIGH = 'high'
+      LEGENDARY = 'legendary'
+    end
+
+    class Types
+      INDIVIDUAL = 'individual'
+      HORDE = 'horde'
+    end
+
     def initialize(tier:, type:, dependencies: {})
       @tier = tier
       @type = type
@@ -24,7 +36,7 @@ module Treasure
 
     def generate_coins_treasure(coins_table)
       coin_treasure = coins_table[roll_table_item]
-      @coins = coin_treasure.map do |type, coin_modifiers|
+      coin_treasure.map do |type, coin_modifiers|
         Treasure::Coin.new(
           type: type,
           ammount: calculate_ammount_from_modifiers(coin_modifiers),
@@ -32,8 +44,8 @@ module Treasure
       end
     end
 
-    def calculate_ammount_from_modifiers(coin_modifiers)
-      roll_coins_ammount(coin_modifiers['dices']) * coin_modifiers['multiplier']
+    def calculate_ammount_from_modifiers(modifiers)
+      roll_ammount_of_coins(modifiers['dices']) * modifiers['multiplier']
     end
 
     def roll_table_item
@@ -46,7 +58,7 @@ module Treasure
       end
     end
 
-    def roll_coins_ammount(dice_number)
+    def roll_ammount_of_coins(dice_number)
       d6(dice_number).roll
     end
 
