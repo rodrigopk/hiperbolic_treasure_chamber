@@ -46,7 +46,35 @@ RSpec.describe Treasure::Loot do
     end
 
     context 'horde treasures' do
-      # TODO: handle horde coin treasure
+      it 'generates loot for encounter tier and type' do
+        allow(d6).to receive(:roll).and_return(6)
+
+        loot = described_class.new(
+          tier: Treasure::Loot::Tiers::MEDIUM,
+          type: Treasure::Loot::Types::HORDE,
+          dependencies: dependencies,
+        )
+
+        expect(loot.coins[0]).to have_attributes(
+          type: Treasure::Coin::Types::CP,
+          ammount: 600,
+        )
+
+        expect(loot.coins[1]).to have_attributes(
+          type: Treasure::Coin::Types::SP,
+          ammount: 6000,
+        )
+
+        expect(loot.coins[2]).to have_attributes(
+          type: Treasure::Coin::Types::GP,
+          ammount: 600,
+        )
+
+        expect(loot.coins[3]).to have_attributes(
+          type: Treasure::Coin::Types::PP,
+          ammount: 60,
+        )
+      end
     end
   end
 end

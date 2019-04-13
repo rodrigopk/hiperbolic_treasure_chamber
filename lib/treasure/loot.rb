@@ -35,8 +35,20 @@ module Treasure
     private
 
     def generate_coins_treasure(coins_table)
-      coin_treasure = coins_table[roll_table_item]
-      coin_treasure.map do |type, coin_modifiers|
+      if @type == Types::INDIVIDUAL
+        generate_individual_treasure(coins_table)
+      else
+        coins_from_table_entry(coins_table)
+      end
+    end
+
+    def generate_individual_treasure(coins_table)
+      table_entry = coins_table[roll_table_item]
+      coins_from_table_entry(table_entry)
+    end
+
+    def coins_from_table_entry(entry)
+      entry.map do |type, coin_modifiers|
         Treasure::Coin.new(
           type: type,
           ammount: calculate_ammount_from_modifiers(coin_modifiers),
