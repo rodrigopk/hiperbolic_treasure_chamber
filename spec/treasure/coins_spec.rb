@@ -36,4 +36,15 @@ RSpec.describe Treasure::Coin do
       expect(coin.ammount).to eq(ammount)
     end
   end
+
+  describe '#to_s' do
+    it 'prints the coin type and ammount' do
+      coin = described_class.new(
+        type: Treasure::Coin::Types::GP,
+        ammount: 100,
+      )
+
+      expect(coin.to_s).to eq('100 gp')
+    end
+  end
 end

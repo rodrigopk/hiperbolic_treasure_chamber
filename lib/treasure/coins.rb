@@ -16,5 +16,9 @@ module Treasure
       @type = type
       @ammount = ammount
     end
+
+    def to_s
+      "#{ammount} #{type}"
+    end
   end
 end
