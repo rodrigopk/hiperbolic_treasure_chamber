@@ -107,23 +107,23 @@ coins:
           multiplier: 1
       25:
         cp:
-          value: 5
+          dices: 5
           multiplier: 1
       26:
         cp:
-          value: 5
+          dices: 5
           multiplier: 1
       27:
         cp:
-          value: 5
+          dices: 5
           multiplier: 1
       28:
         cp:
-          value: 5
+          dices: 5
           multiplier: 1
       29:
         cp:
-          value: 5
+          dices: 5
           multiplier: 1
       30:
         sp:

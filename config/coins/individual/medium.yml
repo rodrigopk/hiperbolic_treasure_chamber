@@ -185,38 +185,38 @@ coins:
           multiplier: 10
       25:
         cp:
-          value: 4
+          dices: 4
           multiplier: 100
         ep:
-          value: 1
+          dices: 1
           multiplier: 10
       26:
         cp:
-          value: 4
+          dices: 4
           multiplier: 100
         ep:
-          value: 1
+          dices: 1
           multiplier: 10
       27:
         cp:
-          value: 4
+          dices: 4
           multiplier: 100
         ep:
-          value: 1
+          dices: 1
           multiplier: 10
       28:
         cp:
-          value: 4
+          dices: 4
           multiplier: 100
         ep:
-          value: 1
+          dices: 1
           multiplier: 10
       29:
         cp:
-          value: 4
+          dices: 4
           multiplier: 100
         ep:
-          value: 1
+          dices: 1
           multiplier: 10
       30:
         sp:
