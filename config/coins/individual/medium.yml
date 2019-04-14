@@ -1,0 +1,636 @@
+coins:
+  individual:
+    medium:
+      0:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      1:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      2:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      3:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      4:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      5:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      6:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      7:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      8:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      9:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      10:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      11:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      12:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      13:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      14:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      15:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      16:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      17:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      18:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      19:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      20:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      21:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      22:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      22:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      23:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      24:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      25:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      26:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      27:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      28:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      29:
+        cp:
+          dices: 4
+          multiplier: 100
+        ep:
+          dices: 1
+          multiplier: 10
+      30:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      31:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      32:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      33:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      34:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      35:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      36:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      37:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      38:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      39:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      40:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      41:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      42:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      43:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      44:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      45:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      46:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      47:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      48:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      49:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      50:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      51:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      52:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      53:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      54:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      55:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      56:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      57:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      58:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      59:
+        sp:
+          dices: 6
+          multiplier: 10
+        gp:
+          dices: 2
+          multiplier: 10
+      60:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      61:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      62:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      63:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      64:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      65:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      66:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      67:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      68:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      69:
+        ep:
+          dices: 1
+          multiplier: 100
+        gp:
+          dices: 2
+          multiplier: 10
+      70:
+        gp:
+          dices: 4
+          multiplier: 10
+      71:
+        gp:
+          dices: 4
+          multiplier: 10
+      72:
+        gp:
+          dices: 4
+          multiplier: 10
+      73:
+        gp:
+          dices: 4
+          multiplier: 10
+      74:
+        gp:
+          dices: 4
+          multiplier: 10
+      75:
+        gp:
+          dices: 4
+          multiplier: 10
+      76:
+        gp:
+          dices: 4
+          multiplier: 10
+      77:
+        gp:
+          dices: 4
+          multiplier: 10
+      78:
+        gp:
+          dices: 4
+          multiplier: 10
+      79:
+        gp:
+          dices: 4
+          multiplier: 10
+      80:
+        gp:
+          dices: 4
+          multiplier: 10
+      81:
+        gp:
+          dices: 4
+          multiplier: 10
+      82:
+        gp:
+          dices: 4
+          multiplier: 10
+      83:
+        gp:
+          dices: 4
+          multiplier: 10
+      84:
+        gp:
+          dices: 4
+          multiplier: 10
+      85:
+        gp:
+          dices: 4
+          multiplier: 10
+      86:
+        gp:
+          dices: 4
+          multiplier: 10
+      87:
+        gp:
+          dices: 4
+          multiplier: 10
+      88:
+        gp:
+          dices: 4
+          multiplier: 10
+      89:
+        gp:
+          dices: 4
+          multiplier: 10
+      90:
+        gp:
+          dices: 4
+          multiplier: 10
+      91:
+        gp:
+          dices: 4
+          multiplier: 10
+      92:
+        gp:
+          dices: 4
+          multiplier: 10
+      93:
+        gp:
+          dices: 4
+          multiplier: 10
+      94:
+        gp:
+          dices: 4
+          multiplier: 10
+      95:
+        gp:
+          dices: 4
+          multiplier: 10
+      96:
+        gp:
+          dices: 4
+          multiplier: 10
+      97:
+        gp:
+          dices: 2
+          multiplier: 10
+        pp:
+          dices: 3
+          multiplier: 1
+      98:
+        gp:
+          dices: 2
+          multiplier: 10
+        pp:
+          dices: 3
+          multiplier: 1
+      99:
+        gp:
+          dices: 2
+          multiplier: 10
+        pp:
+          dices: 3
+          multiplier: 1
+      100:
+        gp:
+          dices: 2
+          multiplier: 10
+        pp:
+          dices: 3
+          multiplier: 1

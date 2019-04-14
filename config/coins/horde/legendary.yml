@@ -1,0 +1,9 @@
+coins:
+  horde:
+    legendary:
+      gp:
+        dices: 12
+        multiplier: 1000
+      pp:
+        dices: 8
+        multiplier: 1000

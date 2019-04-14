@@ -1,0 +1,8 @@
+<div class="mt-4">
+  <p class="font-weight-bold mb-0">Coins</p>
+  <% @loot.coins.each do |coin| %>
+    <div class="mb-1">
+      <%= coin.to_s %>
+    </div>
+  <% end %>
+</div>

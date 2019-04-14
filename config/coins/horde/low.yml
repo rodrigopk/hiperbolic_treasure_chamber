@@ -1,0 +1,12 @@
+coins:
+  horde:
+    low:
+      cp:
+        dices: 6
+        multiplier: 100
+      sp:
+        dices: 3
+        multiplier: 100
+      gp:
+        dices: 2
+        multiplier: 10
