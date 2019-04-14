@@ -12,10 +12,10 @@ module LootHelper
 
   def available_tiers
     [
-      ['Low', Treasure::Loot::Tiers::LOW],
-      ['Medium', Treasure::Loot::Tiers::MEDIUM],
-      ['High', Treasure::Loot::Tiers::HIGH],
-      ['Legendary', Treasure::Loot::Tiers::LEGENDARY]
+      ['Low (CR 0-4)', Treasure::Loot::Tiers::LOW],
+      ['Medium  (CR 5-10)', Treasure::Loot::Tiers::MEDIUM],
+      ['High (CR 11-16)', Treasure::Loot::Tiers::HIGH],
+      ['Legendary  (CR 17+)', Treasure::Loot::Tiers::LEGENDARY]
     ]
   end
 end

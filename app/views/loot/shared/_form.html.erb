@@ -1,5 +1,33 @@
 <%= form_tag(root_path, method: 'post') do %>
-  <%= select_tag 'type', options_for_select(available_types, @selected_type) %>
-  <%= select_tag 'tier', options_for_select(available_tiers, @selected_tier) %>
-  <%= submit_tag('Generate') %>
+  <div class="container mt-5">
+    <div class="form-row">
+      <div class="col">
+        <%= label_tag 'type', 'Type', class: 'font-weight-bold small' %>
+        <%=
+          select_tag 'type',
+          options_for_select(available_types, @selected_type),
+          form_class: 'form',
+          class: 'form-control'
+        %>
+      </div>
+      <div class="col">
+        <%= label_tag 'tier', 'Tier', class: 'font-weight-bold small' %>
+        <%=
+          select_tag 'tier',
+          options_for_select(available_tiers, @selected_tier),
+          form_class: 'form',
+          class: 'form-control'
+        %>
+      </div>
+    </div>
+    <div class="d-flex align-items-center flex-column mt-3">
+      <%=
+        submit_tag(
+          'Generate',
+          form_class: 'form',
+          class: 'btn btn-primary'
+        )
+      %>
+    </div>
+  </div>
 <% end %>
