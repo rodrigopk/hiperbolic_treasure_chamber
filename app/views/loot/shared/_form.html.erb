@@ -1,0 +1,5 @@
+<%= form_tag(root_path, method: 'post') do %>
+  <%= select_tag 'type', options_for_select(available_types, @selected_type) %>
+  <%= select_tag 'tier', options_for_select(available_tiers, @selected_tier) %>
+  <%= submit_tag('Generate') %>
+<% end %>
