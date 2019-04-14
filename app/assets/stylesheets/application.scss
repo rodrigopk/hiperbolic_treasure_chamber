@@ -1,2 +1,15 @@
 @import 'bootstrap';
 @import 'font-awesome';
+
+$github-icon-color: #444444;
+
+.fa-github {
+  color: $github-icon-color;
+  text-decoration: none !important;
+  font-size: 30px;
+}
+
+.fa-github:hover {
+  text-decoration: none !important;
+  color: $github-icon-color;
+}
