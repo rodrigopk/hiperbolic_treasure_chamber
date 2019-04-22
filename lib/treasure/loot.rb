@@ -27,7 +27,9 @@ module Treasure
       @type = type
       @dependencies = dependencies
 
-      coins_config = YAML.load_file("config/coins/#{type}/#{tier}.yml")
+      coins_config = YAML.load_file(
+        "lib/treasure/config/coins/#{type}/#{tier}.yml",
+      )
 
       @coins = generate_coins_treasure(coins_config['coins'][type][tier])
     end
