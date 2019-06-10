@@ -10,388 +10,388 @@ valuable_items:
       3:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       4:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       5:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       6:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       7:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       8:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       9:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       10:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       11:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       12:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       13:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       14:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       15:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       16:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       17:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       18:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       19:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       20:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       21:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       22:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       23:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       24:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       25:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       26:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       27:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       28:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       29:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       30:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       31:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       32:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       33:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       34:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       35:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       36:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       37:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       38:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       39:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       40:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       41:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       42:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       43:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       44:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       45:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       46:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       47:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       48:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       49:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       50:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       51:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       52:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       53:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       54:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       55:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       56:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       57:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       58:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       59:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       60:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       61:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       62:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       63:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       64:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       65:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       66:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       67:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       68:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       69:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       70:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       71:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       72:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       73:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       74:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       75:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       76:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       77:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       78:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       79:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       80:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       81:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       82:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       83:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       84:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       85:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       86:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       87:
         art_objects:
           dices: 2
-          tier: 3
+          value_tier: 3
       88:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       89:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       90:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       91:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       92:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       93:
         art_objects:
           dices: 2
-          tier: 2
+          value_tier: 2
       94:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       95:
         gems:
           dices: 3
-          tier: 3
+          value_tier: 3
       96:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       97:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       98:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
       99:
         gems:
           dices: 3
-          tier: 4
+          value_tier: 4
