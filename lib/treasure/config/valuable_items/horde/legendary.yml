@@ -1,0 +1,399 @@
+valuable_items:
+  horde:
+    legendary:
+      0:
+        none:
+      1:
+        none:
+      2:
+        gems:
+          dices: 3
+          value_tier: 4
+      3:
+        gems:
+          dices: 3
+          value_tier: 4
+      4:
+        gems:
+          dices: 3
+          value_tier: 4
+      5:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      6:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      7:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      8:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      9:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      10:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      11:
+        gems:
+          dices: 2
+          value_tier: 5
+      12:
+        gems:
+          dices: 2
+          value_tier: 5
+      13:
+        gems:
+          dices: 2
+          value_tier: 5
+      14:
+        gems:
+          dices: 2
+          value_tier: 4
+      15:
+        gems:
+          dices: 2
+          value_tier: 4
+      16:
+        gems:
+          dices: 2
+          value_tier: 4
+      17:
+        gems:
+          dices: 2
+          value_tier: 4
+      18:
+        gems:
+          dices: 2
+          value_tier: 4
+      19:
+        gems:
+          dices: 2
+          value_tier: 4
+      20:
+        gems:
+          dices: 2
+          value_tier: 4
+      21:
+        gems:
+          dices: 2
+          value_tier: 4
+      22:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      23:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      24:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      25:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      26:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      27:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      28:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      29:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      30:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      31:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      32:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      33:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      34:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      35:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      36:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      37:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      38:
+        gems:
+          dices: 1
+          value_tier: 5
+      39:
+        gems:
+          dices: 1
+          value_tier: 5
+      40:
+        gems:
+          dices: 1
+          value_tier: 5
+      41:
+        gems:
+          dices: 1
+          value_tier: 5
+      42:
+        gems:
+          dices: 1
+          value_tier: 5
+      43:
+        gems:
+          dices: 1
+          value_tier: 5
+      44:
+        gems:
+          dices: 1
+          value_tier: 5
+      45:
+        gems:
+          dices: 1
+          value_tier: 5
+      46:
+        gems:
+          dices: 3
+          value_tier: 4
+      47:
+        gems:
+          dices: 3
+          value_tier: 4
+      48:
+        gems:
+          dices: 3
+          value_tier: 4
+      49:
+        gems:
+          dices: 3
+          value_tier: 4
+      50:
+        gems:
+          dices: 3
+          value_tier: 4
+      51:
+        gems:
+          dices: 3
+          value_tier: 4
+      52:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      53:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      54:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      55:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      56:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      57:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      58:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      59:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      60:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      61:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      62:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      63:
+        gems:
+          dices: 1
+          value_tier: 5
+      64:
+        gems:
+          dices: 1
+          value_tier: 5
+      65:
+        gems:
+          dices: 1
+          value_tier: 5
+      66:
+        gems:
+          dices: 1
+          value_tier: 5
+      67:
+        gems:
+          dices: 1
+          value_tier: 5
+      68:
+        gems:
+          dices: 3
+          value_tier: 4
+      69:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      70:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      71:
+        gems:
+          dices: 1
+          value_tier: 5
+      72:
+        gems:
+          dices: 3
+          value_tier: 4
+      73:
+        gems:
+          dices: 3
+          value_tier: 4
+      74:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      75:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      76:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      77:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      78:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      79:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      80:
+        gems:
+          dices: 1
+          value_tier: 5
+      81:
+        gems:
+          dices: 1
+          value_tier: 5
+      82:
+        gems:
+          dices: 2
+          value_tier: 4
+      83:
+        gems:
+          dices: 2
+          value_tier: 4
+      84:
+        gems:
+          dices: 2
+          value_tier: 4
+      85:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      86:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      87:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      88:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      89:
+        art_objects:
+          dices: 2
+          value_tier: 4
+      90:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      91:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      92:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      93:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      94:
+        art_objects:
+          dices: 1
+          value_tier: 5
+      95:
+        gems:
+          dices: 2
+          value_tier: 5
+      96:
+        gems:
+          dices: 2
+          value_tier: 5
+      97:
+        gems:
+          dices: 2
+          value_tier: 5
+      98:
+        gems:
+          dices: 2
+          value_tier: 5
+      99:
+        gems:
+          dices: 2
+          value_tier: 5

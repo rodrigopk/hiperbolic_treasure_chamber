@@ -1,0 +1,125 @@
+valuable_item:
+  art_objects:
+    value_tiers:
+      1:
+        descriptions:
+          1: Silver ewer
+          2: Carved bone statuette
+          3: Small gold bracelet
+          4: Cloth-of-gold vestments
+          5: Black velvet mask stitched with silver thread
+          6: Copper chalice with silver filigree
+          7: Pair of engraved bone dice
+          8: Small mirror set in a painted wooden frame
+          9: Embroidered silk handkerchief
+          10: Gold locket with a painted portrait inside
+      2:
+        descriptions:
+          1: Gold ring set with bloodstones
+          2: Carved ivory statuette
+          3: Large gold bracelet
+          4: Silver necklace with a gemstone pendant
+          5: Bronze crown
+          6: Silk robe with gold embroidery
+          7: Large well-made tapestry
+          8: Brass mug with jade inlay
+          9: Box of turquoise animal figurines
+          10: Gold bird cage with electrum filigree
+      3:
+        descriptions:
+          1: Silver chalice set with moonstones
+          2: Silver-plated steellongsword with jet set in hilt
+          3: Carved harp of exotic wood with ivory inlay and zircon gems
+          4: Small gold idol
+          5: Gold dragon comb set with red garnets as eyes
+          6: Bottle stopper cork embossed with gold leaf and set with amethysts
+          7: Ceremonial electrum dagger with a black pearl in the pommel
+          8: Silver and gold brooch
+          9: Obsidian statuette with gold fittings and inlay
+          10: Painted gold war mask
+      4:
+        descriptions:
+          1: Fine gold chain set with a fire opal
+          2: Old masterpiece painting
+          3: Embroidered silk and velvet mantle set with numerous moonstones
+          4: Platinum bracelet set with a sapphire
+          5: Embroidered glove set with jewel chips
+          6: Jeweled anklet
+          7: Gold music box
+          8: Gold circlet set with four aquamarines
+          9: Eye patch with a mock eye set in blue sapphire andmoonstone
+          10: A necklace string of small pink pearls
+      5:
+        descriptions:
+          1: Jeweled gold crown
+          2: Jeweled gold crown
+          3: Jeweled platinum ring
+          4: Jeweled platinum ring
+          5: Small gold statuette set with rubies
+          6: Gold cup set with emeralds
+          7: Gold jewelry box with platinum filigree
+          8: Painted gold child's sarcophagus
+          9: Jade game board with solid gold playing pieces
+          10: Bejeweled ivory drinking horn with gold filigree
+  gems:
+    value_tiers:
+      1:
+        descriptions:
+          1: Azurite (opaque mottled deep blue)
+          2: Banded agate (translucent striped brown, blue, white, or red)
+          3: Blue quartz (transparent pale blue)
+          4: Eye agate (translucent circles of gray, white, brown, blue, or green)
+          5: Hematite (opaque gray-black)
+          6: Lapis lazuli (opaque light and dark blue with yellow flecks)
+          7: Malachite (opaque striated light and dark green)
+          8: Moss agate (translucent pink or yellow-white with mossy gray or green markings)
+          9: Obsidian (opaque black)
+          10: Rhodochrosite (opaque light pink)
+      2:
+        descriptions:
+          1: Bloodstone (opaque dark gray with red flecks)
+          2: Carnelian (opaque orange to red-brown)
+          3: Chalcedony (opaque white)
+          4: Chrysoprase (translucent green)
+          5: Citrine (transparent pale yellow-brown)
+          6: Jasper (opaque blue, black, or brown)
+          7: Moonstone (translucent white with pale blue glow)
+          8: Onyx (opaque bands of black and white, or pure black or white)
+          9: Quartz (transparent white, smoky gray, or yellow)
+          10: Sardonyx (opaque bands of red and white)
+      3:
+        descriptions:
+          1: Alexandrite (transparent dark green)
+          2: Aquamarine (transparent pale blue-green)
+          3: Black pearl (opaque pure black)
+          4: Black pearl (opaque pure black)
+          5: Blue spinel (transparent deep blue)
+          6: Blue spinel (transparent deep blue)
+          7: Peridot (transparent rich olive green)
+          8: Peridot (transparent rich olive green)
+          9: Topaz (transparent golden yellow)
+          10: Topaz (transparent golden yellow)
+      4:
+        descriptions:
+          1: Black opal (translucent dark green with black mottling and golden flecks)
+          2: Black opal (translucent dark green with black mottling and golden flecks)
+          3: Blue sapphire (transparent blue-white to medium blue)
+          4: Blue sapphire (transparent blue-white to medium blue)
+          5: Emerald (transparent deep bright green)
+          6: Fire opal (translucent fiery red)
+          7: Opal (translucent pale blue with green and golden mottling)
+          8: Star ruby (translucent ruby with white star-shaped center)
+          9: Star sapphire (translucent blue sapphire with white star-shaped center)
+          10: Yellow sapphire (transparent fiery yellow or yellow green)
+      5:
+        descriptions:
+          1: Black sapphire (translucent lustrous black with glowing highlights)
+          2: Black sapphire (translucent lustrous black with glowing highlights)
+          3: Black sapphire (translucent lustrous black with glowing highlights)
+          4: Diamond (transparent blue-white, canary, pink, brown, or blue)
+          5: Diamond (transparent blue-white, canary, pink, brown, or blue)
+          6: Diamond (transparent blue-white, canary, pink, brown, or blue)
+          7: Jacinth (transparent fiery orange)
+          8: Jacinth (transparent fiery orange)
+          9: Ruby (transparent clear red to deep crimson)
+          10: Ruby (transparent clear red to deep crimson)
