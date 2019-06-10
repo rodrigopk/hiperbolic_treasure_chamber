@@ -60,10 +60,10 @@ class ValuableItem
   def description_from_type_and_value_tier(type, value_tier)
     return '' if type == Types::NONE
 
-    roll_for_type_and_tier(type, value_tier)
+    roll_description_for_type_and_tier(type, value_tier)
   end
 
-  def roll_for_type_and_tier(type, tier)
+  def roll_description_for_type_and_tier(type, tier)
     descriptions_from_type_and_tier(type, tier)[@d10.roll]
   end
 

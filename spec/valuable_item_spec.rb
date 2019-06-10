@@ -7,7 +7,7 @@ require_relative '../lib/valuable_item'
 require_relative '../lib/coin'
 
 RSpec.describe ValuableItem do
-  let(:d10) { instance_double(Dices::D10, roll: 1) }
+  let(:d10) { instance_double(Dices::D10, roll: 0) }
 
   describe '#initialize' do
     it 'initializes correctly' do
