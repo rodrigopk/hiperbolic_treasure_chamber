@@ -2,13 +2,12 @@
 
 require 'yaml'
 
-require_relative '../dices/d100'
-require_relative '../dices/d6'
 require_relative './coins'
+require_relative './valuable_items'
 
 module Treasure
   class Loot
-    attr_reader :coins
+    attr_reader :coins, :gems, :art_objects
 
     class Tiers
       LOW = 'low'
@@ -23,14 +22,29 @@ module Treasure
     end
 
     def initialize(tier:, type:, dependencies: {})
-      @tier = tier
-      @type = type
+      @dependencies = dependencies
 
-      @coins_treasure = dependencies.fetch(:coins_treasure) do
+      @coins = roll_coins_for_tier_and_type(tier, type)
+      roll_valuable_items_for_tier(tier) if type == Types::HORDE
+    end
+
+    private
+
+    def roll_coins_for_tier_and_type(tier, type)
+      coins_treasure = @dependencies.fetch(:coins_treasure) do
         Treasure::Coins.new(tier: tier, type: type)
       end
 
-      @coins = @coins_treasure.coins
+      coins_treasure.coins
+    end
+
+    def roll_valuable_items_for_tier(tier)
+      valuable_items_treasure = @dependencies.fetch(:valuable_items_treasure) do
+        Treasure::ValuableItems.new(encounter_tier: tier)
+      end
+
+      @gems = valuable_items_treasure.gems
+      @art_objects = valuable_items_treasure.art_objects
     end
   end
 end
