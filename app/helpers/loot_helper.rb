@@ -18,4 +18,12 @@ module LootHelper
       ['Legendary  (CR 17+)', Treasure::Loot::Tiers::LEGENDARY]
     ]
   end
+
+  def art_objects_in_loot?
+    @loot.art_objects.present?
+  end
+
+  def gems_in_loot?
+    @loot.gems.present?
+  end
 end
