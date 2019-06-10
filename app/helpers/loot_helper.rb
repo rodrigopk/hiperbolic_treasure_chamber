@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative '../../lib/treasure/loot'
+require_relative '../../lib/title_generator'
 
 module LootHelper
   def available_types
@@ -25,5 +26,9 @@ module LootHelper
 
   def gems_in_loot?
     @loot.gems.present?
+  end
+
+  def hyperbolic_title
+    TitleGenerator.new.random_title
   end
 end
