@@ -133,6 +133,36 @@ RSpec.describe ValuableItem do
     end
   end
 
+  describe '#to_s' do
+    context 'gems' do
+      it 'returns the correct formatted value' do
+        item = create_item
+
+        expect(item.to_s).to eq(
+          "#{item.ammount}x #{item.value_in_coins} gems [#{item.description}]",
+        )
+      end
+    end
+
+    context 'art_objects' do
+      it 'returns the correct formatted value' do
+        item = create_item(type: ValuableItem::Types::ART_OBJECTS)
+
+        expect(item.to_s).to eq(
+          "#{item.ammount}x #{item.value_in_coins} art objects [#{item.description}]",
+        )
+      end
+    end
+
+    context 'none' do
+      it 'returns an empty string' do
+        item = create_item(type: ValuableItem::Types::NONE)
+
+        expect(item.to_s).to eq('')
+      end
+    end
+  end
+
   private
 
   def create_item(attr = {})

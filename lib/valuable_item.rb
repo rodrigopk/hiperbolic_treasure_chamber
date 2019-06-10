@@ -44,6 +44,12 @@ class ValuableItem
     @value_in_coins = value_in_coins_for_type_and_value_tier(type, value_tier)
   end
 
+  def to_s
+    return '' if type == Types::NONE
+
+    "#{ammount}x #{value_in_coins} #{formatted_item_type} [#{description}]"
+  end
+
   private
 
   def ammount_from_type(ammount, type)
@@ -76,5 +82,9 @@ class ValuableItem
       type: Coin::Types::GP,
       ammount: VALUES_FOR_TYPE_AND_TIER[type][value_tier],
     )
+  end
+
+  def formatted_item_type
+    type.sub('_', ' ')
   end
 end

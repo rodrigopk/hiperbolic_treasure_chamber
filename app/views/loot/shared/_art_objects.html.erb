@@ -1,0 +1,8 @@
+<% if @loot.art_objects.present? %>
+  <div class="mt-4 text-center">
+    <p class="font-weight-bold mb-0">Art Objects</p>
+    <div class="mb-1">
+      <%= @loot.art_objects.to_s %>
+    </div>
+  </div>
+<% end %>
