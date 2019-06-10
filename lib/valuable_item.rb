@@ -3,7 +3,7 @@
 require 'yaml'
 
 require_relative './dices/d10'
-require_relative './treasure/coins'
+require_relative './coin'
 
 class ValuableItem
   attr_reader :type, :ammount, :description, :value_in_coins
@@ -72,8 +72,8 @@ class ValuableItem
   def value_in_coins_for_type_and_value_tier(type, value_tier)
     return nil if type == Types::NONE
 
-    Treasure::Coin.new(
-      type: Treasure::Coin::Types::GP,
+    Coin.new(
+      type: Coin::Types::GP,
       ammount: VALUES_FOR_TYPE_AND_TIER[type][value_tier],
     )
   end

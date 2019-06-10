@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../../lib/treasure/coins'
+require_relative '../lib/coin'
 
-RSpec.describe Treasure::Coin do
+RSpec.describe Coin do
   describe '#initialize' do
     it 'initializes correctly' do
       described_class.new(
-        type: Treasure::Coin::Types::GP,
+        type: Coin::Types::GP,
         ammount: 100,
       )
     end
@@ -15,7 +15,7 @@ RSpec.describe Treasure::Coin do
 
   describe '#type' do
     it 'can be read' do
-      type = Treasure::Coin::Types::GP
+      type = Coin::Types::GP
       coin = described_class.new(
         type: type,
         ammount: 100,
@@ -29,7 +29,7 @@ RSpec.describe Treasure::Coin do
     it 'can be read' do
       ammount = 100
       coin = described_class.new(
-        type: Treasure::Coin::Types::GP,
+        type: Coin::Types::GP,
         ammount: ammount,
       )
 
@@ -40,7 +40,7 @@ RSpec.describe Treasure::Coin do
   describe '#to_s' do
     it 'prints the coin type and ammount' do
       coin = described_class.new(
-        type: Treasure::Coin::Types::GP,
+        type: Coin::Types::GP,
         ammount: 100,
       )
 

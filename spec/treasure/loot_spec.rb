@@ -5,7 +5,7 @@ require 'spec_helper'
 require_relative '../../lib/treasure/loot'
 require_relative '../../lib/dices/d100'
 require_relative '../../lib/dices/d6'
-require_relative '../../lib/treasure/coins'
+require_relative '../../lib/coin'
 
 RSpec.describe Treasure::Loot do
   describe '#initialize' do
@@ -34,12 +34,12 @@ RSpec.describe Treasure::Loot do
         )
 
         expect(loot.coins[0]).to have_attributes(
-          type: Treasure::Coin::Types::CP,
+          type: Coin::Types::CP,
           ammount: 500,
         )
 
         expect(loot.coins[1]).to have_attributes(
-          type: Treasure::Coin::Types::EP,
+          type: Coin::Types::EP,
           ammount: 50,
         )
       end
@@ -56,22 +56,22 @@ RSpec.describe Treasure::Loot do
         )
 
         expect(loot.coins[0]).to have_attributes(
-          type: Treasure::Coin::Types::CP,
+          type: Coin::Types::CP,
           ammount: 600,
         )
 
         expect(loot.coins[1]).to have_attributes(
-          type: Treasure::Coin::Types::SP,
+          type: Coin::Types::SP,
           ammount: 6000,
         )
 
         expect(loot.coins[2]).to have_attributes(
-          type: Treasure::Coin::Types::GP,
+          type: Coin::Types::GP,
           ammount: 600,
         )
 
         expect(loot.coins[3]).to have_attributes(
-          type: Treasure::Coin::Types::PP,
+          type: Coin::Types::PP,
           ammount: 60,
         )
       end

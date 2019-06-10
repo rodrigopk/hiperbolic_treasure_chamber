@@ -4,7 +4,7 @@ require 'spec_helper'
 
 require_relative '../lib/dices/d10'
 require_relative '../lib/valuable_item'
-require_relative '../lib/treasure/coins'
+require_relative '../lib/coin'
 
 RSpec.describe ValuableItem do
   let(:d10) { instance_double(Dices::D10, roll: 1) }
@@ -112,7 +112,7 @@ RSpec.describe ValuableItem do
         item = create_item(value_tier: 3)
 
         expect(item.value_in_coins).to have_attributes(
-          type: Treasure::Coin::Types::GP,
+          type: Coin::Types::GP,
           ammount: 500,
         )
       end
@@ -126,7 +126,7 @@ RSpec.describe ValuableItem do
         )
 
         expect(item.value_in_coins).to have_attributes(
-          type: Treasure::Coin::Types::GP,
+          type: Coin::Types::GP,
           ammount: 750,
         )
       end

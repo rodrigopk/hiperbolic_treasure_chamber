@@ -4,7 +4,7 @@ require 'yaml'
 
 require_relative '../dices/d100'
 require_relative '../dices/d6'
-require_relative './coins'
+require_relative '../coin'
 
 module Treasure
   class Loot
@@ -51,7 +51,7 @@ module Treasure
 
     def coins_from_table_entry(entry)
       entry.map do |type, coin_modifiers|
-        Treasure::Coin.new(
+        Coin.new(
           type: type,
           ammount: calculate_ammount_from_modifiers(coin_modifiers),
         )
