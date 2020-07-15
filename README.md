@@ -1,24 +1,12 @@
-# README
+# Hiperbolic treasure chamber
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app generates random loot for DnD campaigns, based on the treasure tables from [dungeon master tools](https://dungeonmastertools.github.io/treasure.html).
 
-Things you may want to cover:
+It is available at [https://hiperbolic-treasure-chamber.herokuapp.com/](https://hiperbolic-treasure-chamber.herokuapp.com/)
 
-* Ruby version
+Alternatively, you can run it locally by following the steps below:
 
-* System dependencies
+`$ bundle install`  
+`$ bundle exec rails s`
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+May the Chaos gods smile on your players.
